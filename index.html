@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width" />
     <title>gsilis</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/gallery.css" type="text/css" />
+    <link rel="stylesheet" href="styles/gallery-wide.css" type="text/css" />
+    <link rel="stylesheet" href="styles/gallery-mobile.css" type="text/css" />
   </head>
   <body>
-    <p>Working on it.</p>
+    <div id="app">
+      <div class="exhibit">
+        <div class="gradient"></div>
+        <div class="pattern"></div>
+        <div class="logo">
+          <a href="/" title="Home" class="home">
+            <img src="/assets/profile.svg" type="image/svg" />
+            <span>gsilis</span>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <article>
+          <h1>Experiments</h1>
+          <p>These are programming odds and ends that I've worked on. Some of these are games, explorations of frameworks, things I find interesting, or things I want to learn.</p>
+        </article>
+        <div class="bars"></div>
+        <article>
+          <h1>Games</h1>
+          <div class="sections">
+            <section>
+              <img src="/assets/games/lights-out.svg" alt="Screenshot of LightsOut" />
+              <h2>LightsOut</h2>
+              <p>Based on a <a href="https://en.wikipedia.org/wiki/Lights_Out_(game)">handheld puzzle game</a>, this is written in HTML/JavaScript.</p>
+              <a class="play" href="/games/lights-out/">Play</a>
+            </section>
+          </div>
+        </article>
+      </div>
+    </div>
   </body>
 </html>

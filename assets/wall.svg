@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 699.49 738.56">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        font-family: Helvetica, Helvetica;
+        font-size: 18px;
+      }
+
+      .cls-8 {
+        fill: url(#New_Gradient_Swatch_1-2);
+      }
+
+      .cls-9 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-10 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-12 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #383838;
+      }
+
+      .cls-3 {
+        stroke-width: .75px;
+      }
+
+      .cls-3, .cls-5 {
+        stroke: #424242;
+      }
+
+      .cls-3, .cls-5, .cls-6 {
+        opacity: .3;
+      }
+
+      .cls-14 {
+        fill: url(#New_Gradient_Swatch_1);
+      }
+
+      .cls-4 {
+        opacity: 0;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="315.54" cy="472.21" fx="315.54" fy="472.21" r="198.49" gradientTransform="translate(0 -462.79) scale(1 2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset=".64" stop-color="#010101" stop-opacity=".03"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="316.29" cy="360.76" fx="316.29" fy="360.76" r="237" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="391.81" y1="470.69" x2="510.19" y2="265.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffc300"/>
+      <stop offset="1" stop-color="#ecf600"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_1-2" data-name="New Gradient Swatch 1" x1="241.81" x2="360.19" xlink:href="#New_Gradient_Swatch_1"/>
+    <linearGradient id="linear-gradient" x1="430.16" y1="363.22" x2="279.17" y2="371.13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-3" cx="197.96" cy="268.01" fx="197.96" fy="268.01" r="211.02" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ecf600"/>
+      <stop offset="1" stop-color="#ffc300"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="50" y1="599.88" x2="50" y2="216.62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#939900"/>
+      <stop offset="1" stop-color="#ecf600"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="100.88" y="461.62" width="328" height="137"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <rect class="cls-12" x="50" y="461.56" width="410" height="277"/>
+    <text class="cls-7" transform="translate(72.41 400)"><tspan x="0" y="0">Lorem ipsum</tspan></text>
+    <rect class="cls-10" x=".2" width="530.37" height="400"/>
+  </g>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g>
+      <rect class="cls-14" x="376" y="274.79" width="150" height="186.77"/>
+      <g>
+        <line class="cls-3" x1="380.57" y1="283.84" x2="521.57" y2="283.84"/>
+        <line class="cls-3" x1="380.57" y1="286.14" x2="521.57" y2="286.14"/>
+        <line class="cls-3" x1="380.57" y1="288.43" x2="521.57" y2="288.43"/>
+        <line class="cls-3" x1="380.57" y1="290.73" x2="521.57" y2="290.73"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-8" x="226" y="274.79" width="150" height="186.77"/>
+      <g>
+        <line class="cls-5" x1="230.57" y1="283.84" x2="371.57" y2="283.84"/>
+        <line class="cls-5" x1="230.57" y1="286.14" x2="371.57" y2="286.14"/>
+        <line class="cls-5" x1="230.57" y1="288.43" x2="371.57" y2="288.43"/>
+        <line class="cls-5" x1="230.57" y1="290.73" x2="371.57" y2="290.73"/>
+      </g>
+    </g>
+    <rect class="cls-13" x="283.88" y="273.21" width="141.56" height="187.94"/>
+  </g>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <polygon class="cls-9" points="306.51 495.06 100 599.88 100 216.62 306.4 244.81 306.51 495.06"/>
+    <rect class="cls-11" y="216.62" width="100" height="383.26"/>
+    <line class="cls-6" x1="100" y1="216.62" x2="100" y2="599.88"/>
+  </g>
+  <g id="Layer_6" data-name="Layer 6">
+    <g class="cls-15">
+      <g>
+        <line class="cls-4" x1="100" y1="599.88" x2="796.37" y2="247.5"/>
+        <line class="cls-2" x1="114.76" y1="599.88" x2="699.11" y2="296.72"/>
+        <line class="cls-2" x1="124.76" y1="599.88" x2="699.11" y2="296.72"/>
+        <line class="cls-2" x1="134.76" y1="599.88" x2="699.11" y2="296.72"/>
+        <line class="cls-2" x1="144.76" y1="599.88" x2="699.11" y2="296.72"/>
+        <line class="cls-2" x1="154.76" y1="599.88" x2="699.11" y2="296.72"/>
+      </g>
+    </g>
+  </g>
+  <g id="Layer_10" data-name="Layer 10">
+    <line class="cls-2" y1="629.8" x2="394.18" y2="629.8"/>
+    <line class="cls-2" y1="634.8" x2="399.17" y2="634.8"/>
+    <line class="cls-2" y1="639.8" x2="404.58" y2="639.8"/>
+    <line class="cls-2" y1="644.8" x2="410" y2="644.8"/>
+    <line class="cls-2" x1="699.11" y1="296.72" x2="410" y2="644.8"/>
+    <line class="cls-2" x1="699.11" y1="296.72" x2="404.58" y2="639.8"/>
+    <line class="cls-2" x1="699.11" y1="296.72" x2="399.17" y2="634.8"/>
+    <line class="cls-2" x1="699.11" y1="296.72" x2="394.18" y2="629.8"/>
+    <line class="cls-2" y1="169.8" x2="450" y2="169.8"/>
+    <line class="cls-2" y1="174.8" x2="450" y2="174.8"/>
+    <line class="cls-2" y1="179.8" x2="450" y2="179.8"/>
+    <line class="cls-2" y1="184.8" x2="450" y2="184.8"/>
+  </g>
+</svg>

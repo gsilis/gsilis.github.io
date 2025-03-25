@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25.95 39.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: .5;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        opacity: .2;
+      }
+
+      .cls-4 {
+        opacity: .3;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-1" points="25.95 39.76 0 39.76 0 0 25.93 0 25.95 39.76"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_12" data-name="Layer 12">
+    <g class="cls-5">
+      <g>
+        <g>
+          <polygon class="cls-2" points="25.98 5.7 12.99 11.4 0 5.7 12.99 0 25.98 5.7"/>
+          <polygon class="cls-3" points="25.98 5.7 25.95 19.89 12.96 25.59 12.99 11.4 25.98 5.7"/>
+          <polygon class="cls-4" points="0 5.7 .03 19.89 12.96 25.59 12.99 11.4 0 5.7"/>
+        </g>
+        <g>
+          <polygon class="cls-2" points="38.97 25.46 25.98 31.16 12.99 25.46 25.98 19.76 38.97 25.46"/>
+          <polygon class="cls-3" points="38.97 25.46 38.94 39.64 25.95 45.34 25.98 31.16 38.97 25.46"/>
+          <polygon class="cls-4" points="12.99 25.46 13.02 39.64 25.95 45.34 25.98 31.16 12.99 25.46"/>
+        </g>
+        <g>
+          <polygon class="cls-2" points="12.99 25.46 0 31.16 -12.99 25.46 0 19.76 12.99 25.46"/>
+          <polygon class="cls-3" points="12.99 25.46 12.96 39.64 -.03 45.34 0 31.16 12.99 25.46"/>
+        </g>
+        <g>
+          <polygon class="cls-3" points="38.94 -14.19 38.91 0 25.92 5.7 25.95 -8.48 38.94 -14.19"/>
+          <polygon class="cls-4" points="12.96 -14.19 12.99 0 25.92 5.7 25.95 -8.48 12.96 -14.19"/>
+        </g>
+        <polygon class="cls-3" points="12.99 -14.19 12.96 0 -.03 5.7 0 -8.48 12.99 -14.19"/>
+        <g>
+          <polygon class="cls-2" points="51.9 5.7 38.91 11.4 25.92 5.7 38.91 0 51.9 5.7"/>
+          <polygon class="cls-4" points="25.92 5.7 25.95 19.89 38.88 25.59 38.91 11.4 25.92 5.7"/>
+        </g>
+        <polygon class="cls-2" points="25.98 45.34 12.99 51.04 0 45.34 12.99 39.64 25.98 45.34"/>
+        <polygon class="cls-2" points="51.9 45.34 38.91 51.04 25.92 45.34 38.91 39.64 51.9 45.34"/>
+      </g>
+    </g>
+  </g>
+</svg>

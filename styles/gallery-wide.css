@@ -1,0 +1,125 @@
+@media screen and (min-width: 1200px) and (min-height: 500px) {
+  /***
+   * GRAPHIC
+   ***/
+  #app .exhibit {
+    grid-area: exhibit;
+  }
+
+  #app .exhibit .gradient {
+    --background-angle: 0;
+  }
+
+  #app .exhibit .pattern {
+    background-size: 66px;
+    background-position: 0 -10px;
+  }
+
+  #app .exhibit .logo {
+    position: absolute;
+    top: calc(50% - 32px);
+    left: 64px;
+    width: 100px;
+    background: linear-gradient(0deg, var(--background-dark), var(--background-light));
+    padding: 16px 32px 16px 16px;
+  }
+
+  #app .exhibit .logo .home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+  }
+
+  #app .exhibit .logo .home img {
+    width: 32px;
+    height: 32px;
+  }
+
+  /***
+   * MAIN
+   ***/
+  #app .main {
+    grid-area: wall;
+    border-left: 5px solid black;
+    flex-direction: column;
+    justify-items: stretch;
+    overflow: scroll;
+  }
+
+  #app .main .bars {
+    background: url('/assets/bars.svg') repeat-x;
+    flex: 16px 0;
+    margin: 32px 0 32px 32px;
+  }
+
+  #app .main article {
+    color: var(--text-color);
+    margin: 32px;
+    line-height: 1.5em;
+  }
+
+  #app .main article a {
+    color: var(--color-aqua);
+  }
+
+  #app .main article a.play {
+    color: var(--text-color-alternate);
+    padding: 8px 32px;
+    border-radius: 2em;
+    background: linear-gradient(180deg, var(--color-white), var(--color-gray-5));
+    text-decoration: none;
+    text-shadow: 1px 1px var(--color-white);
+    box-shadow: 0 0 5px black, 0 0 2px white inset;
+    font-weight: 900;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  #app .main article a.play:hover {
+    background: linear-gradient(180deg, var(--color-white), var(--color-gray-4));
+  }
+
+  #app .main article .sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1100px;
+  }
+
+  #app .main article .sections section {
+    max-width: 300px;
+    padding: 17px;
+    border-radius: 1em;
+    background: linear-gradient(var(--tile-background-1), var(--tile-background-2));
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-shadow: 2px 4px black;
+    margin: 16px;
+  }
+
+  #app .main article .sections section:hover {
+    background: linear-gradient(var(--tile-background-1) 60%, var(--tile-background-2));
+    border: 1px solid var(--tile-background-1);
+    padding: 16px;
+  }
+
+  #app .main article .sections section .play {
+    align-self: center;
+  }
+
+  #app .main article .sections section img {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+  }
+
+  #app .main article .sections section h1,
+  #app .main article .sections section h2 {
+    margin: 0.75em 0;
+  }
+}
