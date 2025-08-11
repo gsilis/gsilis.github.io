@@ -63,7 +63,7 @@
     document.removeEventListener('DOMContentLoaded', setup);
 
     const bar = document.createElement('project-bar');
-    document.body.prepend(bar);
+    document.body.append(bar);
   }
 
   document.addEventListener('DOMContentLoaded', setup);
