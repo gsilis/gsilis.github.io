@@ -57,3 +57,8 @@ html, body {
   background: var(--background-dark);
   display: flex;
 }
+
+#app .main .raster-wrapper img {
+  max-width: 100%;
+  height: auto;
+}

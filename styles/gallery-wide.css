@@ -112,7 +112,7 @@
     align-self: center;
   }
 
-  #app .main article .sections section img {
+  #app .main article .sections section img.svg {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
