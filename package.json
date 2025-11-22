@@ -1,0 +1,20 @@
+{
+  "name": "gsilis.github.io",
+  "version": "1.0.0",
+  "description": "Website for Girts Silis",
+  "homepage": "https://github.com/gsilis/gsilis.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/gsilis/gsilis.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsilis/gsilis.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Girts Silis",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
