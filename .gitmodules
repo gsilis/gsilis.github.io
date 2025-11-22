@@ -1,0 +1,3 @@
+[submodule "lights-out"]
+	path = lights-out
+	url = https://github.com/gsilis/lights-out.git
