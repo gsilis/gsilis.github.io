@@ -20,6 +20,7 @@ line(`Check for clean repository`, result);
 if (!result) {
   process.exit(1);
 }
+console.log();
 
 console.group('\x1b[44m\x1b[30mChecking projects...\x1b[0m');
 projects.forEach((project) => {
