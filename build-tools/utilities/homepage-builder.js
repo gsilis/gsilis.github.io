@@ -16,7 +16,7 @@ export function homepageBuilder(sections, projects) {
       const src = project.splashSrc;
       const alt = project.splashAlt;
       const cta = project.cta || 'Run';
-      const projectPath = `/projects/${project.id}`;
+      const projectPath = `/projects/${project.id}/`;
 
       if (!src) console.log(`${err()} ${project.title} 'splashSrc' is missing!`);
       if (!alt) console.log(`${err()} ${project.title} 'splashAlt' is missing!`);
