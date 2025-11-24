@@ -31,7 +31,7 @@ projects.forEach((project) => {
   line(`Submodule '${submoduleName}' defined.`, submodule);
   line(`index.html file is present.\n`, findFile(submoduleName, 'index.html'));
   line(`index.html meta tag and script injection`, false);
-  line(`index.html imports exist`, false);
+  line(`index.html imports exist\n\n`, false);
   console.groupEnd();
 });
 console.groupEnd();
