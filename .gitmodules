@@ -1,3 +1,12 @@
 [submodule "lights-out"]
 	path = lights-out
 	url = https://github.com/gsilis/lights-out.git
+[submodule "wait"]
+	path = wait
+	url = https://github.com/gsilis/wait.git
+[submodule "material-tests"]
+	path = material-tests
+	url = https://github.com/gsilis/material-tests.git
+[submodule "warehouse"]
+	path = warehouse
+	url = https://github.com/gsilis/warehouse.git
