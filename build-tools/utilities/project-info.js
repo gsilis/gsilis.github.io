@@ -20,7 +20,7 @@ export class ProjectInfo {
 
   allProjects() {
     const data = this.data();
-    const projects = data && data.projects || [];
+    const projects = data && [...data.projects] || [];
     projects.sort((a, b) => {
       if (a.section === b.section) {
         return a.order - b.order;
@@ -32,5 +32,15 @@ export class ProjectInfo {
     });
 
     return projects;
+  }
+
+  allSections() {
+    const data = this.data();
+    const sections = data && [...data.sections] || [];
+    sections.sort((a, b) => {
+      return a.order - b.order;
+    });
+
+    return sections;
   }
 }

@@ -14,24 +14,33 @@
     "title": "Warehouse",
     "section": "experiments",
     "description": "A warehouse scene made with Blender, rendered using ThreeJS, with controls built in React. Put some boxes on a shelf.",
+    "splashSrc": "/assets/experiments/warehouse.png",
+    "splashAlt": "Warehouse Scene",
+    "raster": true,
     "order": 100
   },{
     "id": "material-tests",
     "title": "Material Tests",
     "section": "experiments",
     "description": "A place to view exports from Blender to see how materials settings behave in ThreeJS.",
+    "splashSrc": "/assets/experiments/experiments.svg",
+    "splashAlt": "Mock UI of the materials application",
     "order": 200
   },{
     "id": "lights-out",
     "title": "LightsOut",
     "section": "games",
     "description": "Based on a <a href=\"https://en.wikipedia.org/wiki/Lights_Out_(game)\">handheld puzzle game</a>, this is written in HTML/JavaScript.",
+    "splashSrc": "/assets/games/lights-out.svg",
+    "splashAlt": "Screenshot of LightsOut",
     "order": 100
   }, {
     "id": "wait",
     "title": "Wait",
     "section": "games",
     "description": "An endless series of dialog boxes and interactions. Written in React using Tailwind.",
+    "splashSrc": "/assets/games/wait.svg",
+    "splashAlt": "A cascade of dialog windows",
     "order": 200
   }]
 }

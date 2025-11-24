@@ -8,9 +8,18 @@ export function buildProject(info) {
   const targetDirectory = path.resolve(import.meta.dirname, '../../', basePath);
 
   try {
-    const result = execSync(`npx vite build ./${moduleName} --base=/${basePath} --outDir=./${basePath}`, { encoding: 'utf-8' });
-    console.log('BUILD', result);
-  } catch(err) {
-    console.error('Not built', err);
+    execSync(`cd ${projectDirectory}; npm install`, { encoding: 'utf-8' });
+  } catch (err) {
+    console.error(`Could not run install for ${info.id}`);
+    return;
   }
+
+  try {
+    execSync(`cd ${projectDirectory}; npx vite build ./ --base=/${basePath} --outDir=../${basePath} --emptyOutDir`, { encoding: 'utf-8' });
+  } catch(err) {
+    console.error(`Could not build ${info.id}`);
+    return;
+  }
+
+  return true;
 }
