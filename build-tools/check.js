@@ -1,4 +1,4 @@
-import { err, line, ok, writeConsoleLine } from "./utilities/console-helpers.js";
+import { line } from "./utilities/console-helpers.js";
 import { workingDirectoryClearCheck } from "./utilities/git-check.js";
 import { Projects } from "./utilities/projects.js";
 import { findFile, submoduleFolderFor } from "./utilities/submodule.js";
@@ -16,11 +16,11 @@ try {
 }
 
 const result = await workingDirectoryClearCheck();
-line(`Check for clean repository`, result);
+line(`Check for clean repository\n`, result);
 if (!result) {
+  console.error('The build command will modify files in this repo. It\'s best to run it without any unstaged changes.\n');
   process.exit(1);
 }
-console.log();
 
 console.group('\x1b[44m\x1b[30mChecking projects...\x1b[0m');
 projects.forEach((project) => {
@@ -29,8 +29,9 @@ projects.forEach((project) => {
   const submodule = submoduleFolderFor(submoduleName);
   
   line(`Submodule '${submoduleName}' defined.`, submodule);
-  line(`index.html file is present.`, findFile(submoduleName, 'index.html'));
-  console.log('');
+  line(`index.html file is present.\n`, findFile(submoduleName, 'index.html'));
+  line(`index.html meta tag and script injection`, false);
+  line(`index.html imports exist`, false);
   console.groupEnd();
 });
 console.groupEnd();
