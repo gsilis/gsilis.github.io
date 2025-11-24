@@ -24,14 +24,14 @@ if (!result) {
 
 console.group('\x1b[44m\x1b[30mChecking projects...\x1b[0m');
 projects.forEach((project) => {
-  console.group(`\x1b[43m\x1b[30m${project.title}\x1b[0m`);
+  console.group(`\x1b[43m\x1b[30m    ${project.title}    \x1b[0m`);
   const submoduleName = project.submodule || project.id;
   const submodule = submoduleFolderFor(submoduleName);
   
   line(`Submodule '${submoduleName}' defined.`, submodule);
-  line(`index.html file is present.\n`, findFile(submoduleName, 'index.html'));
-  line(`index.html meta tag and script injection`, false);
-  line(`index.html imports exist\n\n`, false);
+  line(`index.html file is present.`, findFile(submoduleName, 'index.html'));
+  line(`index.html meta tag and script injection.`, false);
+  line(`index.html imports exist.\n\n`, false);
   console.groupEnd();
 });
 console.groupEnd();
