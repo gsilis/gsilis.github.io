@@ -36,12 +36,12 @@ export function homepageBuilder(sections, projects) {
     return `
       <article>
         <h1>${section.title}</h1>
-        <div class="sections">${sectionHtml}</div>
+        <div class="sections">${sectionHtml.join('')}</div>
       </article>
     `.replace(/\n/g, '').trim();
   });
 
-  canvas.innerHTML = insert;
+  canvas.innerHTML = insert.join('');
   
   try {
     fs.writeFileSync(indexPath, dom.toString());
