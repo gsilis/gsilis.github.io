@@ -42,5 +42,13 @@
     "splashSrc": "/assets/games/wait.svg",
     "splashAlt": "A cascade of dialog windows",
     "order": 200
+  }, {
+    "id": "alpine-clickjob",
+    "title": "ClickJob™ Lite",
+    "section": "games",
+    "description": "A clicker game built using TypeScript, AlpineJS, with some animations using Motion. This is still under development, so some of the icons are missing.",
+    "splashSrc": "/assets/games/clickjob-splash.svg",
+    "splashAlt": "A mouse pointer alongside a clicker count",
+    "order": 300
   }]
 }
