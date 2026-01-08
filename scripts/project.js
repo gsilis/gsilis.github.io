@@ -1,6 +1,6 @@
 (function() {
   const css = `
-    :host { display: flex; height: 32px; background: linear-gradient(0, rgb(0, 0, 0), rgb(50, 50, 50)); width: fit-content; position: absolute; top: 0; left: 0; font-family: Helvetica, Arial, sans-serif; font-size: 12px; }
+    :host { display: flex; height: 32px; background: linear-gradient(0, rgb(0, 0, 0), rgb(50, 50, 50)); width: fit-content; position: absolute; z-index: 999; top: 0; left: 0; font-family: Helvetica, Arial, sans-serif; font-size: 12px; }
     .icon { flex: 32px 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(-45deg, rgb(217, 224, 33), rgb(0, 255, 255)); }
     .icon a { width: 32px; height: 32px; display: flex; justify-content: center; align-items: center; }
     .icon a #arrow { width: 0; height: 0; }
