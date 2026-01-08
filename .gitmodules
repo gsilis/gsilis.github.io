@@ -10,3 +10,6 @@
 [submodule "warehouse"]
 	path = warehouse
 	url = https://github.com/gsilis/warehouse.git
+[submodule "alpine-clickjob"]
+	path = alpine-clickjob
+	url = https://github.com/gsilis/alpine-clickjob
