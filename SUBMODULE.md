@@ -5,3 +5,9 @@
 1. Add the project's repository as a submodule - `git submodule add <url>`
 1. Run the install and build commands
 1. Push the change
+
+# Updating a project (all projects)
+
+1. Run `git submodule update --remote`
+1. Run build `npm install && npm run build`
+1. Push the changes `git push`
