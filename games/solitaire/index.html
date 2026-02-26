@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./assets/favicon-DAm9M4bB.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solitaire</title>
+    <script type="module" crossorigin src="./assets/index-Da3El4si.js"></script>
+  </head>
+  <body>
+    <div class="game-block w-screen h-screen relative flex flex-row">
+      <div class="h-screen flex-1">
+        <canvas id="game-canvas"></canvas>
+      </div>
+      <div class="ui absolute bottom-0" x-data="$store.game">
+        <div x-show="isMainMenu" id="main_menu" class="w-screen h-screen flex flex-col items-center justify-center">
+          <h1 class="title mb-10">SOLITAIRE</h1>
+          <button id="play-game" class="button">PLAY</button>
+          <hr class="mb-15" />
+          <div class="flex flex-row gap-6 radio-group">
+            <label class="flex justify-center" x-bind:class="{'selected': dealCount === 1}">
+              <input type="radio" name="deal-count" value="1" x-model="dealCount" @click="dealOne" />
+              <span>Deal One</span>
+            </label>
+            <label class="flex justify-center" x-bind:class="{'selected': dealCount === 3}">
+              <input type="radio" name="deal-count" value="3" x-model="dealCount" @click="dealThree" />
+              <span>Deal Three</span>
+            </label>
+          </div>
+        </div>
+        <div x-show="isPlaying" id="playing" class="w-screen flex flex-row items-center absolute bottom-[30px]">
+          <button id="quit-button" class="button m-3">Quit</button>
+          <button id="redeal-button" class="button m-3">New Game</button>
+          <button id="reset-button" class="button m-3">Reset</button>
+          <div class="spacer"></div>
+          <span class="label" id="gmae-attempts">
+            <span class="title">Attempts: </span>
+            <span class="value" x-text="attempts"></span>
+          </span>
+          <span class="label" id="game-plays">
+            <span class="title">Hands: </span>
+            <span class="value" x-text="plays"></span>
+          </span>
+          <span class="label" id="game-wins">
+            <span class="title">Wins: </span>
+            <span class="value" x-text="wins"></span>
+          </span>
+        </div>
+        <div x-show="isGameOverAnimating" id="game_over_animating" class="w-screen flex flex-row items-center absolute bottom-[30px]">
+          <div class="spacer"></div>
+          <span class="label" id="gmae-attempts">
+            <span class="title">Attempts: </span>
+            <span class="value" x-text="attempts"></span>
+          </span>
+          <span class="label" id="game-plays">
+            <span class="title">Hands: </span>
+            <span class="value" x-text="plays"></span>
+          </span>
+          <span class="label" id="game-wins">
+            <span class="title">Wins: </span>
+            <span class="value" x-text="wins"></span>
+          </span>
+        </div>
+        <div x-show="isGameOver" id="game_over" class="w-screen h-screen flex flex-col items-center justify-center absolute bottom-0 gap-10">
+          <button class="button" id="new-game">New Game</button>
+          <button class="button" id="menu">Back to Menu</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
