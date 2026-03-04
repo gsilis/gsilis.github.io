@@ -33,7 +33,7 @@
     "description": "Based on a <a href=\"https://en.wikipedia.org/wiki/Lights_Out_(game)\">handheld puzzle game</a>, this is written in HTML/JavaScript.",
     "splashSrc": "/assets/games/lights-out.svg",
     "splashAlt": "Screenshot of LightsOut",
-    "order": 100
+    "order": 200
   }, {
     "id": "wait",
     "title": "Wait",
@@ -50,5 +50,13 @@
     "splashSrc": "/assets/games/clickjob-splash.svg",
     "splashAlt": "A mouse pointer alongside a clicker count",
     "order": 300
+  }, {
+    "id": "solitaire",
+    "title": "Solitaire",
+    "section": "games",
+    "description": "A draw one or draw three solitaire game written in Excalibus JS, with UI elements written in AlpineJS.",
+    "splashSrc": "/assets/games/solitaire.svg",
+    "splashAlt": "A deck of face down cards with three cards drawn in a waste pile",
+    "order": 100
   }]
 }

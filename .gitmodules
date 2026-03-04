@@ -13,3 +13,6 @@
 [submodule "alpine-clickjob"]
 	path = alpine-clickjob
 	url = https://github.com/gsilis/alpine-clickjob
+[submodule "solitaire"]
+	path = solitaire
+	url = https://github.com/gsilis/solitaire.git
